@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int abc;
+    printf ("enter a number ");
+    scanf ("%d", &abc);
+    int b;
+    b= abc /10;
+     printf ("the value other than unit place  = %d\n", b);
+    int v;
+    v= abc%10;
+    printf ("the  unit value = %d\n", v);
+    return 0;
+}
