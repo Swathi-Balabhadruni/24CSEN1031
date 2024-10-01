@@ -5,7 +5,7 @@ int main() {
     printf("ENTER A NUMBER");
 scanf("%d", &num);
 q=num;
-if(num>99 && num<=99999){
+if(num>99 && num<=999){
 r= q%10;
 printf("%d\n",r);
 q=q/10;
@@ -37,5 +37,27 @@ while(q>0){
   printf("%d\n",r);
   q=q/10;
 }  
+return 0;
+}
+
+
+
+
+
+#include <stdio.h>
+
+int main() {
+  int num,q,r;
+    printf("ENTER A NUMBER ");
+scanf("%d", &num);
+q=num;
+int sum=0;;
+while(q>0){
+  r= q%10;
+  printf("%d\n",r);
+  sum=10*sum+r;
+  q=q/10;
+}  
+printf("the revere number = %d",sum);
 return 0;
 }
