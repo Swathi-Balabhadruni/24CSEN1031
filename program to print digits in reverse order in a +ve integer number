@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+   int p,q,r,sum=0;
+   printf("enter number to be reversed: ");
+   scanf("%d",&r);
+   p=r;
+   printf("\n");
+   printf("after reversing:\n ");
+   
+   while(p>=1){
+       q=p%10;
+       p=p/10;
+       printf("\n%d",q);
+   }
+  
+   return 0;
+}
