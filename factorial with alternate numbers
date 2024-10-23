@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int recursive_factorial(int n){
+    if(n<0)
+    return 1;
+    else
+    return n*recursive_factorial(n-2);
+}
+int main(){
+    int number, factorial_number=1;
+    printf("enter a non negative number:");
+    scanf("%d", &number);
+    if(number<0)
+    printf("entered a negative number,cannot be determined ");
+    else{
+        for(int i=1;i<=number;i = i+2)
+         factorial_number*=i;
+          printf("Factorial of %d is %d", number, factorial_number);      
+   printf("\nUsing recursive method Factorial of %d is %d", number, recursive_factorial(number));
+  
+  return 0;
+}
+    
+    
+}
