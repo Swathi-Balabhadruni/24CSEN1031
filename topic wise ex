@@ -18,3 +18,26 @@ subtraction of two numbers is: 341
 
 
 === Code Execution Successful ===
+
+
+
+#include<stdio.h>
+int main() {
+int a,b;
+scanf("%d",&a);
+scanf("%d",&b);
+if((a>=150)&&(b>=55)){
+    printf("allowed");
+}
+else{
+    printf("not allowed");
+}
+return 0;
+}
+
+
+95
+25
+not allowed
+
+=== Code Execution Successful ===
