@@ -1,3 +1,4 @@
+NOT GETTING THE REQUIRED OUTPUT
 #include<stdio.h>
 int main(){
     int num;
@@ -23,4 +24,19 @@ int main(){
     }
     return 0;
 }
-output is segmentation fault
+output is SEGMENTATION FAULT
+
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter a value:");
+    scanf("\n%d",a);
+    printf(" a letter to its ascii value, %c\n");
+}
+
+OUTPUT:
+enter a value:2
+Segmentation fault
+
+WE NEED FROM DIGIT TO CHAR
+=== Code Exited With Errors ===
