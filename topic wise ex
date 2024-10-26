@@ -1,3 +1,4 @@
+ADDN
 #include <stdio.h>
 
 int main() {
@@ -10,7 +11,6 @@ int main() {
  printf("subtraction of two numbers is: %d\n",c);
 }
 
-
 OUTPUT:
 enter the value of a:995
 enter the value of b:654
@@ -20,7 +20,7 @@ subtraction of two numbers is: 341
 === Code Execution Successful ===
 
 
-
+IF ELSE
 #include<stdio.h>
 int main() {
 int a,b;
@@ -35,9 +35,49 @@ else{
 return 0;
 }
 
-
+OUTPUT
 95
 25
 not allowed
+
+=== Code Execution Successful ===
+
+
+
+ONLY IF
+#include<stdio.h>
+int main()
+{
+    float a,b;
+    printf("enter your age:");
+    scanf("%f", &a);
+     printf("enter your age:");
+    scanf("%f", &b);
+
+if((a>=12)&&(b<=19)){
+    printf("you are eligible for voting");
+}
+return 0;
+}
+
+OUTPUT
+enter your age:5.9
+enter your age:63
+
+=== Code Execution Successful ===
+
+
+CHAR TO ASCII VALUE
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter a letter:");
+    scanf("\n%c",a);
+    printf(" a letter to its ascii value, %d\n");
+}
+
+OUTPUT
+enter a letter:G
+ a letter to its ascii value, 71
 
 === Code Execution Successful ===
