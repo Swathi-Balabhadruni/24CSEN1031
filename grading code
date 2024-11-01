@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main(){
+    float marks;
+    printf("to calculate the grade");
+   printf("\nenter the maths marks:");
+   scanf("%f", &marks);
+   if(marks<=14){
+    printf("you got a c grade");}
+    
+    if((marks>=15)&&(marks<20)){
+    printf("you got a b grade");}
+    
+if((marks>=20)&&(marks<30)){
+    printf("you got a A grade");}
+    else{
+   printf("\ngot a different grade");
+}
+ printf("\nenter the chemistry marks:");
+   scanf("%f", &marks);
+   if(marks<=14){
+    printf("you got a c grade");}
+    
+    if((marks>=15)&&(marks<20)){
+    printf("you got a b grade");}
+    
+if((marks>=20)&&(marks<=30)){
+    printf("you got a A grade");}
+    else{
+   printf("\ngot a different grade");
+}
+return 0;
+}
