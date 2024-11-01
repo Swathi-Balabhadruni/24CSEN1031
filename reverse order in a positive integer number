@@ -16,3 +16,14 @@ int main() {
   
    return 0;
 }
+
+output:
+enter number to be reversed: 958
+
+after reversing:
+ 
+8
+5
+9
+
+=== Code Execution Successful ===
