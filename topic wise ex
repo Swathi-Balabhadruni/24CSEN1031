@@ -81,3 +81,21 @@ enter a letter:G
  a letter to its ascii value, 71
 
 === Code Execution Successful ===
+
+
+
+FIND RADIUS
+
+#include<stdio.h>
+#define PI 3.1498
+int main(){
+    float radius,area;
+    printf("enter the radius:");
+    scanf("%f", &radius);
+    area=PI*radius*radius;
+    printf("area of a circle is: %.2f\n",area);
+    }
+
+OUTPUT:
+enter the radius:9.654
+area of a circle is: 293.56
