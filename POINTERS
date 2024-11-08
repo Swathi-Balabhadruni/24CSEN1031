@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+float num = 0.7;
+float *ptr = &num;
+
+    printf("address of num = %u\n", &num);
+ printf("values of pointer = %u\n", ptr);
+    return 0;
+}
+
+
+OUTPUT:
+address of num = 2882329316
+values of pointer = 2882329316
+
+
+=== Code Execution Successful ===
