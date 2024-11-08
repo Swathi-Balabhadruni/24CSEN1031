@@ -27,3 +27,33 @@ address of pointer = 27165344
 
 
 === Code Execution Successful ===
+
+
+#include <stdio.h>
+
+int main() {
+int num = 7;
+int * ptr1 = &num;
+int ** ptr2 = &ptr1;
+ 
+   printf("address of num = %u\n", ptr1);
+    printf("address of ptr1 = %u\n", ptr2);
+     printf(" address of ptr1 = %u\n", &ptr1);
+ 
+ printf("address of pointer = %u\n", *ptr2);
+  printf("address of pointer = %d\n", **ptr2);
+   printf("address of pointer = %d\n", ***&ptr2);
+
+    return 0;
+}
+
+OUTPUT:
+address of num = 3078285580
+address of ptr1 = 3078285568
+ address of ptr1 = 3078285568
+address of pointer = 3078285580
+address of pointer = 7
+address of pointer = 7
+
+
+=== Code Execution Successful ===
