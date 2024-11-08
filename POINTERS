@@ -4,15 +4,26 @@ int main() {
 float num = 0.7;
 float *ptr = &num;
 
+ printf("values of num = %f\n", num);
+ printf("values of address = %f\n", *(&num));
     printf("address of num = %u\n", &num);
  printf("values of pointer = %u\n", ptr);
+ printf("address of pointer = %u\n", &ptr);
+  printf("address of pointer = %u\n", *&ptr);
+   printf("address of pointer = %u\n", *ptr);
+  printf(" %u\n", **&ptr);
     return 0;
 }
 
-
 OUTPUT:
-address of num = 2882329316
-values of pointer = 2882329316
+values of num = 0.700000
+values of address = 0.700000
+address of num = 3810482780
+values of pointer = 3810482780
+address of pointer = 3810482768
+address of pointer = 3810482780
+address of pointer = 27165344
+ 27165344
 
 
 === Code Execution Successful ===
